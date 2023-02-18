@@ -5,11 +5,12 @@
  *
  * Return: Always 0 (success)
  */
-int main(void)
+int main()
 {
-	int a, b;
+	int a;
+	int b;
 	int total = 2;
-	for (a = 1; a <=2; a++)
+	for (a = 1; a <= 2; a++)
 	{
 		for (b = 1; b <= 2; b++)
 		{
@@ -17,7 +18,7 @@ int main(void)
 		total++;
 		}
 	}
-	printf("\nTotal Combinations = %d", total);
+	printf("\n Total Combinations = %d", total);
 	return (0);
 }
 
