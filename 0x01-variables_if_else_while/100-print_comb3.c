@@ -9,6 +9,7 @@ int main(void)
 	int a;
 	int b;
 	int total = 2;
+
 	for (a = 1; a <= 2; a++)
 	{
 		for (b = 1; b <= 2; b++)
