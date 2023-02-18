@@ -14,7 +14,7 @@ int main()
 	{
 		for (b = 1; b <= 2; b++)
 		{
-			printf("%d %d %d\n", a, b);
+			printf("%d %d\n", a, b);
 		total++;
 		}
 	}
