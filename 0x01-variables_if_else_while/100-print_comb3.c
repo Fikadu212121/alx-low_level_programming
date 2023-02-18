@@ -10,9 +10,9 @@ int main(void)
 	int b;
 	int total = 10;
 
-	for (a = 0; a <= 9; a++)
+	for (a = 0; a <= 8; a++)
 	{
-		for (b = 0; b <= 9; b++)
+		for (b = 1; b <= 9; b++)
 		{
 			printf("%d %d\n", a, b);
 		total++;
