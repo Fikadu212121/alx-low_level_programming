@@ -8,11 +8,11 @@ int main(void)
 {
 	int a;
 	int b;
-	int total = 2;
+	int total = 10;
 
-	for (a = 1; a <= 2; a++)
+	for (a = 0; a <= 9; a++)
 	{
-		for (b = 1; b <= 2; b++)
+		for (b = 0; b <= 9; b++)
 		{
 			printf("%d %d\n", a, b);
 		total++;
