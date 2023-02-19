@@ -14,7 +14,7 @@ int main(void)
 	{
 		for (b = 1; b <= 9; b++)
 		{
-			printf("%d %d\n", a, b);
+			printf("%d%d", a, b);
 			putchar(',');
 		total++;
 		}
