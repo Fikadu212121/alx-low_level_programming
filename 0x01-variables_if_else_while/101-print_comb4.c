@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description - Combination of three digit
+ *
  * Return: Always 0 (success)
  */
 int main(void)
