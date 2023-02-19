@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-        int a;
+	int a;
 	int b;
 	int c;
 	
@@ -27,6 +27,6 @@ int main(void)
 			}
 		}
 	}
-        putchar('\n');
-        return (0);
+	putchar('\n');
+	return (0);
 }
