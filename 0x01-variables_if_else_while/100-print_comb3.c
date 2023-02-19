@@ -15,10 +15,11 @@ int main(void)
 		for (b = 1; b <= 9; b++)
 		{
 			printf("%d %d\n", a, b);
+			putchar(',');
 		total++;
 		}
 	}
-	printf("\n Total Combinations = %d", total);
+	putchar('\n');
 	return (0);
 }
 
